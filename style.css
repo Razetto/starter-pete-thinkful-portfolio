@@ -67,6 +67,34 @@ img {
   border-radius: 50%;
 }
 
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.aboutImage {
+  flex: 1;
+  margin: 10px;
+}
+
+.aboutText {
+  flex: 1;
+  text-align: left;
+}
+
+.portfolioContainer {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.portfolioItem {
+  flex: 1;
+  font-size: 14px;
+}
+
 /* Footer */
 footer {
   text-align: center;
